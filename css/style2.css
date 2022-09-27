@@ -41,3 +41,16 @@ nav ul {
 .warzone a  {
     padding-left: 0px;
 }
+
+.video {
+    width: 750px;
+    height: 500px;
+    margin: auto auto;
+}
+
+section {
+    display: flex;
+    width: 1000px;
+    margin: auto auto;
+    background-color: blueviolet;
+}
