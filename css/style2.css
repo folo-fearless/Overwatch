@@ -12,7 +12,7 @@ body{
 }
 
 nav {
-    background-color: black;
+    background-color: rgb(56,58,57);
     display: block;
     box-shadow: 0em 0.5em 1.5em black;    
 }
@@ -28,7 +28,7 @@ nav ul li{
 }
 
 nav ul li:hover {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid white;
     transition-duration: 0.8s;
 }
 
@@ -40,36 +40,41 @@ nav ul li a {
 
 .mw2 {
     margin-left: 20px;
+    margin-right: 200px;
 }
-
 
 nav ul {
-    padding-left: 0px;
-}
-
-.mw2 a  {
     padding-left: 0px;
 }
 
 .video {
     width: 750px;
     margin: auto auto;
-    box-shadow: 0em 0em 1em red; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0em 0em 10px rgb(140, 148, 146); 
     border-radius: 40px;
     transition-duration: 0.4s;
 }
 .video:hover {
-    box-shadow: 0em 0em 5em red; 
+    box-shadow: 0em 0em 2em rgb(140, 148, 146); 
     transition-duration: 0.8s;
 }
 
 section {
     display: flex;
     width: 1000px;
-    height: 500px;
     margin: auto auto;
-    background-color: rgb(85, 0, 0);
+    background-color: rgb(56,58,57);
     border-radius: 20px;
+    box-shadow: 0em 0em 1em rgb(140, 148, 146); 
+    transition-duration: 0.4s;
+    margin-top: 30px;
+}
+
+section:hover{
+    box-shadow: 0em 0em 1.5em rgb(140, 148, 146); 
+    transition-duration: 0.2s;
 }
 
 @media screen and (max-width: 800px){
@@ -131,12 +136,12 @@ section {
     .video {
         width: 250px;
         margin: auto auto;
-        box-shadow: 0em 0em 1em red; 
+        box-shadow: 0em 0em 1em gray; 
         border-radius: 40px;
         transition-duration: 0.4s;
     }
     .video:hover {
-        box-shadow: 0em 0em 5em red; 
+        box-shadow: 0em 0em 5em gray; 
         transition-duration: 0.8s;
     }
     
@@ -145,8 +150,15 @@ section {
         width: 300px;
         height: 200px;
         margin: auto auto;
-        background-color: rgb(85, 0, 0);
+        background-color: black;
         border-radius: 20px;
+        box-shadow: 0em 0em 5em gray; 
+        transition-duration: 0.4s;
+    }
+
+    section:hover{
+        box-shadow: 0em 0em 5em gray; 
+        transition-duration: 0.8s;
     }
     
 }
