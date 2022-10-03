@@ -6,6 +6,11 @@
     margin-left: 0px;
     margin-right: 0px;
 }
+
+@font-face {
+    font-family: "montserrat";
+    src: url("/police/Montserrat/static/Montserrat-Bold.ttf") format(ttf);
+}
    
 body{
     background-color: gray;
@@ -22,8 +27,9 @@ nav ul li{
     height: 20px;
     padding: 20px 0px 20px 0px;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "montserrat";
     font-weight: bold;
+    letter-spacing: 1px;
     border-bottom: 3px solid transparent;
     transition-duration: 0.4s;
 }
@@ -82,11 +88,12 @@ nav ul {
 }
 
 .titre{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "montserrat";
     font-size: 50px;
     font-weight: bold;
     color: white;
     text-decoration: underline;
+    letter-spacing: 1px;
 }
 
 .flex{
