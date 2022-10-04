@@ -5,26 +5,25 @@
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    z-index: 1;
 }
 
 @font-face {
     font-family: "montserrat";
     src: url("/police/Montserrat/static/Montserrat-Bold.ttf") format(ttf);
 }
-   
-body{
-    background-color: gray;
+
+body {
     color: white;
-    background-color: rgb(56,58,57);
+    background-color: rgb(56, 58, 57);
 }
 
 nav {
-    background-color: rgb(56,58,57);
+    background-color: rgb(56, 58, 57);
     display: block;
     width: 100%;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     padding: 0.8% 0% 0.8% 0%;
     font-size: 18px;
@@ -33,6 +32,7 @@ nav ul li{
     letter-spacing: 1px;
     border-bottom: 3px solid transparent;
     transition-duration: 0.4s;
+
 }
 
 nav ul li:hover {
@@ -60,29 +60,35 @@ nav ul {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    box-shadow: 0em 1em 1em gray;
 }
 
-.rognage_video{
+
+
+.rognage_video {
     height: 80vh;
     z-index: -1;
 
 }
 
-.section {
+section {
     display: flex;
     width: 100%;
     margin: auto auto;
-    background-color: rgb(56,58,57);
+    flex-direction: column;
+    align-items: center;
 }
+
+
+
 
 .sectionhorizontale {
     display: flex;
-    width: 1300px;
+    width: 100%;
     margin: auto auto;
-    background-color: rgb(56,58,57);
-    border-radius: 20px;
-    margin-top: 2.4%;
-    flex-flow:row;
+    flex-flow: row;
+    padding-top: 2.4%;
+    z-index: 2;
 }
 
 .sectionfond {
@@ -90,62 +96,66 @@ nav ul {
     width: 100%;
     margin: auto auto;
     border-radius: 20px;
-    flex-flow:column;
+    flex-flow: column;
 }
 
-.titre{
+h1 {
     font-family: "montserrat";
     font-size: 50px;
     font-weight: bold;
     color: white;
     text-decoration: underline;
     letter-spacing: 1px;
+    text-align: center;
+    margin-top: 2%;
 }
 
-.flex{
-    flex-direction: column;
-    display: flex;
-}
-.flexcenter{
+.flexcenter {
     margin: auto auto;
     margin-top: 1.6%;
 }
 
-.flexleft{
-    margin-top: 2.4%;
+.texte {
+    margin-top: 1%;
     font-size: 20px;
+    margin-bottom: 1%;
     font-style: italic;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: rgb(42, 190, 62);
+    opacity: ;
 }
 
-.imagemw2{
-    display:flex;
+.imagemw2 {
+    display: flex;
     margin-left: 0.8%;
-    margin-top: 2.4%;
     width: 700px;
     box-shadow: 0em 0em 10px rgb(140, 148, 146);
 }
 
-.imageprice{
-    display:flex;
-    margin-left: 0.8%;
+.flex_horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
+.imageprice {
+    display: flex;
+    margin-left: 3vh;
     margin-top: 2.4%;
-    width: 600px;
+    width: 100vh;
     box-shadow: 0em 0em 10px rgb(140, 148, 146);
 }
 
-.imagekyle{
-    display:flex;
-    margin-left: 0.8%;
+.imagekyle {
+    display: flex;
+    margin-left: 3vh;
     margin-top: 2.4%;
-    width: 670px;
+    width: 100vh;
     box-shadow: 0em 0em 10px rgb(140, 148, 146);
 }
 
-.flexprice{
-    margin-left: 15%;
+.flexprice {
+    margin-left: 35vh;
     margin-top: 2%;
     margin-bottom: 3%;
     font-family: Arial, Helvetica, sans-serif;
@@ -156,8 +166,8 @@ nav ul {
     font-style: normal;
 }
 
-.flexkyle{
-    margin-left: 37%;
+.flexkyle {
+    margin-left: 75vh;
     margin-top: 2%;
     margin-bottom: 3%;
     font-family: Arial, Helvetica, sans-serif;
@@ -168,8 +178,28 @@ nav ul {
     font-style: normal;
 }
 
-.imgfond{
+.flexfond {
+    background-image: url(image/fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flexfond_beton {
+    background-image: url(image/fond_beton.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fond {
     width: 100%;
-    position: fixed;
-    z-index: -1;
+    height: 180vh;
+    position: absolute;
+    opacity: 0.5;
+}
+
+
+
+.fond_beton {
+    width: 100%;
+    height: 182vh;
+    position: absolute;
 }
