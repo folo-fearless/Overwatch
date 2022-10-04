@@ -70,7 +70,7 @@ nav ul {
 
 .section {
     display: flex;
-    width: 99%;
+    width: 100%;
     margin: auto auto;
     background-color: rgb(56,58,57);
 }
@@ -85,13 +85,11 @@ nav ul {
     flex-flow:row;
 }
 
-.sectionverticale {
+.sectionfond {
     display: flex;
-    width: 1300px;
+    width: 100%;
     margin: auto auto;
-    background-color: rgb(56,58,57);
     border-radius: 20px;
-    margin-top: 2.4%;
     flex-flow:column;
 }
 
@@ -168,4 +166,10 @@ nav ul {
     color: white;
     text-decoration: underline;
     font-style: normal;
+}
+
+.imgfond{
+    width: 100%;
+    position: fixed;
+    z-index: -1;
 }
