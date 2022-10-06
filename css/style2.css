@@ -36,8 +36,12 @@ nav ul li {
 }
 
 nav ul li:hover {
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid rgb(37, 168, 55);
     transition-duration: 0.8s;
+}
+
+nav ul li a:hover{
+    color: rgb(42, 190, 62);
 }
 
 nav ul li a {
@@ -79,9 +83,6 @@ section {
     align-items: center;
 }
 
-
-
-
 .sectionhorizontale {
     display: flex;
     width: 100%;
@@ -107,7 +108,7 @@ h1 {
     text-decoration: underline;
     letter-spacing: 1px;
     text-align: center;
-    margin-top: 2%;
+    padding-top: 2%;
 }
 
 .flexcenter {
@@ -116,19 +117,19 @@ h1 {
 }
 
 .texte {
-    margin-top: 1%;
+    padding-top: 1%;
     padding-left: 2%;
     padding-right: 2%;
     letter-spacing: 1px;
     font-size: 150%;
-    margin-bottom: 1%;
+    padding-bottom: 1%;
     font-family: "montserrat";
     text-align: justify;
     color: white;
 }
 
 .texte_center {
-    margin-top: -1%;
+    margin-top: -3%;
     padding-left: 2%;
     padding-right: 2%;
     letter-spacing: 1px;
@@ -162,47 +163,27 @@ h1 {
     display: flex;
     flex-direction: row;
 }
-
-.imageprice {
+/* bas de page image */
+figure {
+    display: block;
+    margin: 0%;
+}
+.sectionphoto{
     display: flex;
-    margin-left: 3vh;
-    margin-top: 2.4%;
-    width: 100vh;
-    box-shadow: 0em 0em 10px rgb(140, 148, 146);
+    flex-direction: row;
 }
-
-.imagekyle {
-    display: flex;
-    margin-left: 3vh;
-    margin-top: 2.4%;
-    width: 100vh;
-    box-shadow: 0em 0em 10px rgb(140, 148, 146);
+figcaption{
+    text-align: center;
+    background: linear-gradient(rgb(0, 255, 0), black);;
 }
-
-.flexprice {
-    margin-left: 35vh;
-    margin-top: 2%;
-    margin-bottom: 3%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    text-decoration: underline;
-    font-style: normal;
+.image{
+    box-shadow: 0em 0em 1em rgb(140, 148, 146);
+    width: 500px;
+    height: 250px;
 }
-
-.flexkyle {
-    margin-left: 75vh;
-    margin-top: 2%;
-    margin-bottom: 3%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    text-decoration: underline;
-    font-style: normal;
+.marge_milieu{
+    margin-right: 50px;
 }
-
 .flexfond {
     background-image: url(image/fond.png);
     background-size: cover;
@@ -214,7 +195,8 @@ h1 {
     background-image: url(image/fond_beton.png);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0em 0.3em 2em rgb(201, 201, 201);
+    margin-bottom: Opx;
+    box-shadow: 0em 0em 2em rgb(201, 201, 201);
 
 }
 .fond {
@@ -223,8 +205,6 @@ h1 {
     position: absolute;
     opacity: 0.5;
 }
-
-
 
 .fond_beton {
     width: 100%;
