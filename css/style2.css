@@ -60,7 +60,7 @@ nav ul {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    box-shadow: 0em 1em 1em gray;
+    box-shadow: 0em 0.3em 2em rgb(201, 201, 201);
 }
 
 
@@ -117,19 +117,44 @@ h1 {
 
 .texte {
     margin-top: 1%;
-    font-size: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    letter-spacing: 1px;
+    font-size: 150%;
+    margin-bottom: 1%;
+    font-family: "montserrat";
+    text-align: justify;
+    color: white;
+}
+
+.texte_center {
+    margin-top: -1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    letter-spacing: 1px;
+    font-size: 150%;
+    margin-bottom: 1%;
+    font-family: "montserrat";
+    text-align: center;
+    color: white;
+}
+
+.texte_italique {
+    margin-top: 1%;
+    font-size: 150%;
     margin-bottom: 1%;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: rgb(42, 190, 62);
-    opacity: ;
 }
-
 .imagemw2 {
     display: flex;
-    margin-left: 0.8%;
-    width: 700px;
+    margin:auto auto;
+    width: 95%;
+    height: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     box-shadow: 0em 0em 10px rgb(140, 148, 146);
 }
 
@@ -182,12 +207,15 @@ h1 {
     background-image: url(image/fond.png);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 2%;
 }
 
 .flexfond_beton {
     background-image: url(image/fond_beton.png);
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 0em 0.3em 2em rgb(201, 201, 201);
+
 }
 .fond {
     width: 100%;
