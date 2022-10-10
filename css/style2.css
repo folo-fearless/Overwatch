@@ -46,7 +46,7 @@ nav ul li a {
 
 .overwatch2 {
     margin-left: 1.6%;
-    margin-right: 16%;
+    margin-right: 14%;
 }
 
 nav ul {
@@ -105,18 +105,6 @@ h1 {
     color: white;
 }
 
-.imagemw2 {
-    display: flex;
-    margin: auto auto;
-    width: 95%;
-    height: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    box-shadow: 0em 0em 10px rgb(140, 148, 146);
-}
-
-
-
 /* bas de page image */
 figure {
     display: block;
@@ -137,7 +125,7 @@ figcaption {
 }
 
 .image {
-    box-shadow: 0em 0em 1em rgb(140, 148, 146);
+    box-shadow: 0em 0em 1em black;
     width: 500px;
     height: 250px;
 }
