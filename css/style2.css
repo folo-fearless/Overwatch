@@ -12,41 +12,35 @@
     src: url("/police/Montserrat/static/Montserrat-Bold.ttf") format(ttf);
 }
 
-body {
-    color: white;
-    background-color: rgb(56, 58, 57);
+html {
+    display: flex;
+    height: 0px;
 }
 
 nav {
-    background-color: rgb(56, 58, 57);
+    background-color: rgba(255, 255, 255, 0.575);
     display: block;
     width: 100%;
 }
 
 nav ul li {
     display: inline-block;
+    border-radius: 20%;
     padding: 0.8% 0% 0.8% 0%;
     font-size: 18px;
     font-family: "montserrat";
     font-weight: bold;
     letter-spacing: 1px;
-    border-bottom: 3px solid transparent;
-    transition-duration: 0.4s;
-
 }
 
 nav ul li:hover {
-    border-bottom: 3px solid rgb(37, 168, 55);
-    transition-duration: 0.8s;
+    background-color: rgba(228, 226, 226, 0.671);
 }
 
-nav ul li a:hover{
-    color: rgb(42, 190, 62);
-}
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 0px 40px 20px 40px;
 }
 
@@ -64,7 +58,6 @@ nav ul {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    box-shadow: 0em 0.3em 2em rgb(201, 201, 201);
 }
 
 
@@ -77,7 +70,6 @@ nav ul {
 
 section {
     display: flex;
-    width: 100%;
     margin: auto auto;
     flex-direction: column;
     align-items: center;
@@ -85,7 +77,6 @@ section {
 
 .sectionhorizontale {
     display: flex;
-    width: 100%;
     margin: auto auto;
     flex-flow: row;
     padding-top: 2.4%;
@@ -94,7 +85,6 @@ section {
 
 .sectionfond {
     display: flex;
-    width: 100%;
     margin: auto auto;
     border-radius: 20px;
     flex-flow: column;
@@ -140,18 +130,9 @@ h1 {
     color: white;
 }
 
-.texte_italique {
-    margin-top: 1%;
-    font-size: 150%;
-    margin-bottom: 1%;
-    font-style: italic;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: rgb(42, 190, 62);
-}
 .imagemw2 {
     display: flex;
-    margin:auto auto;
+    margin: auto auto;
     width: 95%;
     height: 100%;
     margin-top: 2%;
@@ -159,46 +140,54 @@ h1 {
     box-shadow: 0em 0em 10px rgb(140, 148, 146);
 }
 
-.flex_horizontal{
+.flex_horizontal {
     display: flex;
     flex-direction: row;
 }
+
 /* bas de page image */
 figure {
     display: block;
     margin: 0%;
 }
-.sectionphoto{
+
+.sectionphoto {
     display: flex;
     flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
-figcaption{
+
+figcaption {
     text-align: center;
-    background: linear-gradient(rgb(0, 255, 0), black);;
+    color: black;
+    font-family: "montserrat";
 }
-.image{
+
+.image {
     box-shadow: 0em 0em 1em rgb(140, 148, 146);
     width: 500px;
     height: 250px;
 }
-.marge_milieu{
+
+.marge_milieu {
     margin-right: 50px;
 }
+
 .flexfond {
-    background-image: url(image/fond.png);
+    background-image: url(image/1600_Sky.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 2%;
 }
 
-.flexfond_beton {
-    background-image: url(image/fond_beton.png);
+.fond_ciel {
+    background-image: url(image/ciel.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: Opx;
-    box-shadow: 0em 0em 2em rgb(201, 201, 201);
 
 }
+
 .fond {
     width: 100%;
     height: 180vh;
@@ -206,8 +195,13 @@ figcaption{
     opacity: 0.5;
 }
 
-.fond_beton {
-    width: 100%;
-    height: 182vh;
-    position: absolute;
+.noir {
+    color: black;
+}
+
+.bandeau {
+    background-image: url(image/bandeau.png);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    margin-bottom: Opx;
 }
