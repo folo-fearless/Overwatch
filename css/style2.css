@@ -44,7 +44,7 @@ nav ul li a {
     padding: 0px 40px 20px 40px;
 }
 
-.mw2 {
+.overwatch2 {
     margin-left: 1.6%;
     margin-right: 16%;
 }
@@ -75,14 +75,6 @@ section {
     align-items: center;
 }
 
-.sectionhorizontale {
-    display: flex;
-    margin: auto auto;
-    flex-flow: row;
-    padding-top: 2.4%;
-    z-index: 2;
-}
-
 .sectionfond {
     display: flex;
     margin: auto auto;
@@ -101,11 +93,6 @@ h1 {
     padding-top: 2%;
 }
 
-.flexcenter {
-    margin: auto auto;
-    margin-top: 1.6%;
-}
-
 .texte {
     padding-top: 1%;
     padding-left: 2%;
@@ -115,18 +102,6 @@ h1 {
     padding-bottom: 1%;
     font-family: "montserrat";
     text-align: justify;
-    color: white;
-}
-
-.texte_center {
-    margin-top: -3%;
-    padding-left: 2%;
-    padding-right: 2%;
-    letter-spacing: 1px;
-    font-size: 150%;
-    margin-bottom: 1%;
-    font-family: "montserrat";
-    text-align: center;
     color: white;
 }
 
@@ -140,10 +115,7 @@ h1 {
     box-shadow: 0em 0em 10px rgb(140, 148, 146);
 }
 
-.flex_horizontal {
-    display: flex;
-    flex-direction: row;
-}
+
 
 /* bas de page image */
 figure {
@@ -174,7 +146,7 @@ figcaption {
     margin-right: 50px;
 }
 
-.flexfond {
+.fond_sky {
     background-image: url(image/1600_Sky.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -186,13 +158,6 @@ figcaption {
     background-size: cover;
     background-repeat: no-repeat;
 
-}
-
-.fond {
-    width: 100%;
-    height: 180vh;
-    position: absolute;
-    opacity: 0.5;
 }
 
 .noir {
