@@ -172,7 +172,9 @@ figcaption {
     border: 2px solid white;
 }
 
-
+.margin-bottom {
+    margin-bottom: 2%;
+}
 
 thead tr th {
     text-align: center;
