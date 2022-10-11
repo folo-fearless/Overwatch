@@ -153,10 +153,9 @@ figcaption {
 }
 
 .image-bandeau {
-    position: absolute;
     top: 8.9%;
-    width: 500px;
-    height: 250px
+    width: 1000px;
+    height: 275px
 }
 
 
@@ -168,17 +167,20 @@ figcaption {
     max-width: 80%;
     width: auto;
     box-shadow: 0em 0.5em 2em #4c8cd4;
-    margin: 10% auto;
+    margin: 0% auto;
     border-radius: 20px;
     border: 2px solid white;
-    font-family: 'Times New Roman', Times, serif;
 }
+
+
 
 thead tr th {
     text-align: center;
+    min-width: 40%;
     color: white;
     background-color: #f06414;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
 }
 
 th, td {
@@ -186,12 +188,17 @@ th, td {
 }
 
 tbody tr, td, th {
-    text-align: center;
+    text-align: justify;
     color: white;
     background-color: #05a0fa3f;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+.center {
+    text-align: center;
+    font-weight: bold;
+}
 
 .border-radius-top-left {
     border-top-left-radius: 15px;
@@ -218,4 +225,19 @@ tbody tr, td, th {
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 2%;
+}
+
+
+@media screen and (min-width: 575px) and (max-width: 1070px){
+    .image {
+        height: 125px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .image {
+        height: 62.5px;
+        width: 125px;
+    }
 }
