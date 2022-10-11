@@ -232,8 +232,29 @@ tbody tr, td, th {
 
 @media screen and (min-width: 575px) and (max-width: 1070px){
     .image {
-        height: 125px;
         width: 250px;
+        height: 125px;
+    }
+
+    .image-bandeau {
+        width: 400px;
+        height: 110px;
+    }
+
+    tbody tr, td, th {
+        font-size: 13,3px;
+    }
+
+    thead tr th {
+        font-size: 16.7px;
+    }
+
+    .texte {
+        font-size: 100%;
+    }
+
+    h1 {
+        font-size: 33px;
     }
 }
 
@@ -241,5 +262,26 @@ tbody tr, td, th {
     .image {
         height: 62.5px;
         width: 125px;
+    }
+
+    .image-bandeau {
+        width: 266.7px;
+        height: 73px;
+    }
+
+    tbody tr, td, th {
+        font-size: 8px;
+    }
+
+    thead tr th {
+        font-size: 10px;
+    }
+
+    .texte {
+        font-size: 60%;
+    }
+
+    h1 {
+        font-size: 20px;
     }
 }
