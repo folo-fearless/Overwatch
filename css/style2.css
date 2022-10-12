@@ -270,11 +270,11 @@ tbody tr, td, th {
     }
 
     td {
-        font-size: 108px;
+        font-size: 8px;
     }
 
     thead tr th {
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .texte {
