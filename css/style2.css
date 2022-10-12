@@ -269,11 +269,7 @@ tbody tr, td, th {
         height: 73px;
     }
 
-    .taille-texte-mobile{
-        font-size: 5px;
-    }
-
-    thead tr th {
+    thead {
         font-size: 10px;
     }
 
