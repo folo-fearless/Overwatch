@@ -18,29 +18,50 @@ body {
 }
 
 nav {
-    background-color: rgba(255, 255, 255, 0.575);
+    position: fixed;
+    background-color: rgba(211, 209, 209, 0.8);
     display: block;
-    width: 100%;
+    top: 1.5%;
+    width: 90%;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 4%;
+    backdrop-filter: blur(10px);
+    z-index: 2;
+}
+
+.aligne_texte_nav {
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 15%;
+}
+
+.overwatch_navbar {
+    position: relative;
+    width: 200px;
+    left: 10%;
+    margin-top: 2%;
+    margin-right: 0px;
 }
 
 nav ul li {
     display: inline-block;
-    border-radius: 20%;
-    padding: 0.8% 0% 0.8% 0%;
+    border-radius: 10px;
+    padding: 1% 0% 1% 0%;
+    margin-top: 0.8%;
     font-size: 18px;
     font-family: "montserrat";
     font-weight: bold;
     letter-spacing: 1px;
 }
 
-nav ul li:hover {
-    background-color: rgba(228, 226, 226, 0.671);
+ul li:hover {
+    background-color: rgba(168, 168, 168, 0.8);
 }
-
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 0px 40px 20px 40px;
 }
 
@@ -50,8 +71,10 @@ nav ul li a {
 }
 
 nav ul {
-    padding-left: 0%;
     margin-bottom: 0%;
+    padding-left: 0%;
+    width: 100%;
+    margin-left: 25%;
 }
 
 .video {
@@ -94,9 +117,12 @@ h1 {
     color: white;
     text-decoration: underline;
     letter-spacing: 1px;
-    text-align: center;
+    align-items: center;
     padding-top: 5%;
-    font-weight: none;
+}
+
+.titre_plus_logo {
+    text-decoration: none;
 }
 
 ol li {
@@ -111,6 +137,15 @@ ol li {
     margin-bottom: 3%;
     font-weight: none;
 }
+
+.titre_overwatch {
+    position: relative;
+    top: 10px;
+    left: 5%;
+    height: 50px;
+}
+
+
 
 .texte {
     padding-top: 1%;
@@ -194,7 +229,7 @@ figcaption {
 .nom_map {
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     color: black;
     text-decoration: underline;
@@ -205,16 +240,16 @@ figcaption {
     font-weight: none;
 }
 
-.none {
-    display: none;
-}
-
 .noir {
     color: black;
 }
 
+.titre_placement {
+    margin-top: 15%;
+}
+
 .image-bandeau {
-    top: 8.9%;
+    margin-top: 15%;
     width: 1000px;
     height: 275px
 }
