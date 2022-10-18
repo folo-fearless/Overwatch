@@ -60,7 +60,13 @@ nav ul {
     object-fit: cover;
 }
 
-
+.video_bande_annonce {
+    height: 75%;
+    width: 75%;
+    margin-bottom: 5%;
+    box-shadow: 0em 0em 1em black;
+    border-radius: 5%;
+}
 
 .rognage_video {
     height: 80vh;
@@ -70,6 +76,7 @@ section {
     display: flex;
     margin: auto auto;
     flex-direction: column;
+    width: 100%;
     align-items: center;
 }
 
@@ -88,7 +95,20 @@ h1 {
     text-decoration: underline;
     letter-spacing: 1px;
     text-align: center;
-    padding-top: 2%;
+    padding-top: 5%;
+    font-weight: none;
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 3%;
     font-weight: none;
 }
 
@@ -98,7 +118,7 @@ h1 {
     padding-right: 2%;
     letter-spacing: 1px;
     font-size: 150%;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
     font-family:'Times New Roman', Times, serif;
     text-align: justify;
     color: white;
@@ -114,7 +134,7 @@ figure {
     display: flex;
     flex-direction: row;
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 5%;
 }
 
 figcaption {
@@ -128,6 +148,27 @@ figcaption {
     box-shadow: 0em 0em 1em black;
     width: 500px;
     height: 250px;
+}
+
+.image_map {
+    box-shadow: 0em 0em 1em black;
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 5%;
+}
+
+ol li {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 3%;
+    font-weight: none;
 }
 
 .marge_milieu {
@@ -146,6 +187,21 @@ figcaption {
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+
+.fond_bleu_marine {
+    background-image: url(image/fond-bleu-marine-ville.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+ol {
+    margin-left: -3%;
+}
+
+.none {
+    display: none;
 }
 
 .noir {
