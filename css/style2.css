@@ -269,7 +269,11 @@ tbody tr, td, th {
         height: 73px;
     }
 
-    thead {
+    td {
+        font-size: 8px;
+    }
+
+    thead tr th {
         font-size: 10px;
     }
 
