@@ -354,30 +354,3 @@ tbody tr, td, th {
     }
 }
 
-@media screen and (max-width: 574px) {
-    .image {
-        height: 62.5px;
-        width: 125px;
-    }
-
-    .image-bandeau {
-        width: 266.7px;
-        height: 73px;
-    }
-
-    td {
-        font-size: 8px;
-    }
-
-    thead tr th {
-        font-size: 10px;
-    }
-
-    .texte {
-        font-size: 60%;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-}
